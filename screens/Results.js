@@ -30,8 +30,8 @@ export default class App extends Component {
             <Text style={styles.heading}>One-way Flights from {this.props.navigation.getParam('originCity')} to {this.props.navigation.getParam('destinationCity')}</Text>
                
                 {this.state.dataSource.map(flight => {
-                    return flight.originCity == this.props.navigation.getParam('originCity') &&
-                        flight.destinationCity == this.props.navigation.getParam('destinationCity') &&
+                    return flight.originCity.toUpperCase() === this.props.navigation.getParam('originCity').toUpperCase() &&
+                        flight.destinationCity.toUpperCase() == this.props.navigation.getParam('destinationCity').toUpperCase() &&
                         flight.departureDate == this.props.navigation.getParam('departureDate') &&
                         flight.passengers > this.props.navigation.getParam('passengers') && 
                         // <Text>{flight.originCity} to {flight.destinationCity}</Text>
