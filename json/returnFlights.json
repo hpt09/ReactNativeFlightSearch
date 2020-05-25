@@ -1,0 +1,3 @@
+[
+    { "originCity": "Pune", "destinationCity": "Delhi", "departureDate":"2020-01-01", "price":23000, "departTime":"10.00 AM","arriveTime":"12.00 PM","flightNo":"AI-202","passengers":100,"returnDate":"2020-01-01", "returnDepartTime":"10.00 AM","returnArriveTime":"12.00 PM","returnFlightNo":"AI-203"}
+]

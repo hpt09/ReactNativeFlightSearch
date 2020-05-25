@@ -1,0 +1,5 @@
+[
+    { "originCity": "Pune", "destinationCity": "Delhi", "departureDate":"2020-01-01", "price":23000, "departTime":"10.00 AM","arriveTime":"12.00 PM","flightNo":"AI-202","passengers":100},
+    {"originCity": "Pune", "destinationCity": "Delhi", "departureDate":"2020-01-01", "price":25000, "departTime":"10.00 AM","arriveTime":"12.00 PM","flightNo":"AI-203","passengers":100},
+    {"originCity": "Pune", "destinationCity": "Delhi", "departureDate":"2020-01-01", "price":28000, "departTime":"10.00 AM","arriveTime":"12.00 PM","flightNo":"AI-204","passengers":100}
+]
